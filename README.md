@@ -23,9 +23,6 @@ While testing the API, our list of [sandbox credentials](/resources/sandbox/sand
   * [Server Selection](#server-selection)
   * [Custom HTTP Client](#custom-http-client)
   * [Special Types](#special-types)
-* [Development](#development)
-  * [Maturity](#maturity)
-  * [Contributions](#contributions)
 
 <!-- End Table of Contents [toc] -->
 
