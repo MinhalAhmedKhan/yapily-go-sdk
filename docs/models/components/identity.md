@@ -1,0 +1,18 @@
+# Identity
+
+Identification details of a party associated with an account e.g. (account owner or operator).
+
+
+## Fields
+
+| Field                                                                      | Type                                                                       | Required                                                                   | Description                                                                |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `ID`                                                                       | `*string`                                                                  | :heavy_minus_sign:                                                         | N/A                                                                        |
+| `FirstName`                                                                | `*string`                                                                  | :heavy_minus_sign:                                                         | N/A                                                                        |
+| `LastName`                                                                 | `*string`                                                                  | :heavy_minus_sign:                                                         | N/A                                                                        |
+| `FullName`                                                                 | `*string`                                                                  | :heavy_minus_sign:                                                         | N/A                                                                        |
+| `Gender`                                                                   | `*string`                                                                  | :heavy_minus_sign:                                                         | N/A                                                                        |
+| `Birthdate`                                                                | `*string`                                                                  | :heavy_minus_sign:                                                         | N/A                                                                        |
+| `Email`                                                                    | `*string`                                                                  | :heavy_minus_sign:                                                         | N/A                                                                        |
+| `Phone`                                                                    | `*string`                                                                  | :heavy_minus_sign:                                                         | N/A                                                                        |
+| `Addresses`                                                                | [][components.IdentityAddress](../../models/components/identityaddress.md) | :heavy_minus_sign:                                                         | N/A                                                                        |

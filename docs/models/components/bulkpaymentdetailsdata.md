@@ -1,0 +1,10 @@
+# BulkPaymentDetailsData
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `ID`                                                                                               | `*string`                                                                                          | :heavy_minus_sign:                                                                                 | __Mandatory__. Unique identifier for the bulk payment transaction.                                 |
+| `ConsentID`                                                                                        | `*string`                                                                                          | :heavy_minus_sign:                                                                                 | __Mandatory__. Unique identifier of the consent related to bulk payment transaction.               |
+| `Payments`                                                                                         | [][components.BulkPaymentIndividualStatus](../../models/components/bulkpaymentindividualstatus.md) | :heavy_minus_sign:                                                                                 | N/A                                                                                                |

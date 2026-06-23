@@ -1,0 +1,15 @@
+# IdentityAddress
+
+
+## Fields
+
+| Field                                                                     | Type                                                                      | Required                                                                  | Description                                                               |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| `AddressLines`                                                            | []`string`                                                                | :heavy_minus_sign:                                                        | N/A                                                                       |
+| `City`                                                                    | `*string`                                                                 | :heavy_minus_sign:                                                        | N/A                                                                       |
+| `PostalCode`                                                              | `*string`                                                                 | :heavy_minus_sign:                                                        | N/A                                                                       |
+| `Country`                                                                 | `*string`                                                                 | :heavy_minus_sign:                                                        | N/A                                                                       |
+| `StreetName`                                                              | `*string`                                                                 | :heavy_minus_sign:                                                        | N/A                                                                       |
+| `BuildingNumber`                                                          | `*string`                                                                 | :heavy_minus_sign:                                                        | N/A                                                                       |
+| `Type`                                                                    | [*components.AddressTypeEnum](../../models/components/addresstypeenum.md) | :heavy_minus_sign:                                                        | __Optional__. The type of address                                         |
+| `County`                                                                  | `*string`                                                                 | :heavy_minus_sign:                                                        | N/A                                                                       |

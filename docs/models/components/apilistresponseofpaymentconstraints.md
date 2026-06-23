@@ -1,0 +1,9 @@
+# APIListResponseOfPaymentConstraints
+
+
+## Fields
+
+| Field                                                                                            | Type                                                                                             | Required                                                                                         | Description                                                                                      |
+| ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `Meta`                                                                                           | [*components.ResponseListMeta](../../models/components/responselistmeta.md)                      | :heavy_minus_sign:                                                                               | N/A                                                                                              |
+| `Data`                                                                                           | [][components.PaymentConstraintsResponse](../../models/components/paymentconstraintsresponse.md) | :heavy_minus_sign:                                                                               | N/A                                                                                              |

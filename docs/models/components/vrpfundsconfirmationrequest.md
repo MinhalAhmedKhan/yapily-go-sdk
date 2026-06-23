@@ -1,0 +1,9 @@
+# VrpFundsConfirmationRequest
+
+
+## Fields
+
+| Field                                                                                                                | Type                                                                                                                 | Required                                                                                                             | Description                                                                                                          |
+| -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `PaymentAmount`                                                                                                      | [components.Amount](../../models/components/amount.md)                                                               | :heavy_check_mark:                                                                                                   | __Mandatory__. Monetary Amount.                                                                                      |
+| `Reference`                                                                                                          | `*string`                                                                                                            | :heavy_minus_sign:                                                                                                   | __Optional__. The reference/description associated with the VRP consent. Limited to a maximum of 18 characters long. |

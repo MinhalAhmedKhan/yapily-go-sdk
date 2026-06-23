@@ -1,0 +1,12 @@
+# UserBeneficiaryData
+
+Beneficiary data response.
+
+
+## Fields
+
+| Field                                                                                           | Type                                                                                            | Required                                                                                        | Description                                                                                     | Example                                                                                         |
+| ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `BeneficiaryID`                                                                                 | `*string`                                                                                       | :heavy_minus_sign:                                                                              | id of the beneficiary                                                                           | e7b7636d-a041-4013-8a1b-34dc85b7d341                                                            |
+| `Status`                                                                                        | [*components.BeneficiaryStatus](../../models/components/beneficiarystatus.md)                   | :heavy_minus_sign:                                                                              | Status of the beneficiary check.                                                                |                                                                                                 |
+| `Details`                                                                                       | [*components.UserBeneficiaryDataDetails](../../models/components/userbeneficiarydatadetails.md) | :heavy_minus_sign:                                                                              | Beneficiary response with the details of the VoP result.                                        |                                                                                                 |

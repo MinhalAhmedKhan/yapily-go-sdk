@@ -1,0 +1,11 @@
+# EventSubscriptionResponse
+
+
+## Fields
+
+| Field                                                                      | Type                                                                       | Required                                                                   | Description                                                                | Example                                                                    |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `EventTypeID`                                                              | `string`                                                                   | :heavy_check_mark:                                                         | Unique identifier of the event type (for which notifications will be sent) | payment.status.completed                                                   |
+| `ApplicationID`                                                            | `string`                                                                   | :heavy_check_mark:                                                         | Application related to event subscription.                                 | 2698db90-6635-4f76-b673-5ce8e2aeda0e                                       |
+| `Created`                                                                  | `string`                                                                   | :heavy_check_mark:                                                         | Creation date of event subscription.                                       | 28-07-2021 15:47:03                                                        |
+| `Notification`                                                             | [components.Notification](../../models/components/notification.md)         | :heavy_check_mark:                                                         | Subscription details for how and where to receive notifications.           |                                                                            |

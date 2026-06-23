@@ -1,0 +1,13 @@
+# FilteredClientPayloadListConsent
+
+
+## Fields
+
+| Field                                                                           | Type                                                                            | Required                                                                        | Description                                                                     |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `APICall`                                                                       | [*components.APICall](../../models/components/apicall.md)                       | :heavy_minus_sign:                                                              | N/A                                                                             |
+| `Data`                                                                          | [][components.Consent](../../models/components/consent.md)                      | :heavy_minus_sign:                                                              | N/A                                                                             |
+| `NextCursorHash`                                                                | `*string`                                                                       | :heavy_minus_sign:                                                              | N/A                                                                             |
+| `NextLink`                                                                      | `*string`                                                                       | :heavy_minus_sign:                                                              | N/A                                                                             |
+| `PagingMap`                                                                     | map[string][components.FilterAndSort](../../models/components/filterandsort.md) | :heavy_minus_sign:                                                              | N/A                                                                             |
+| `TotalCount`                                                                    | `*int64`                                                                        | :heavy_minus_sign:                                                              | N/A                                                                             |

@@ -1,0 +1,37 @@
+speakeasyVersion: 1.784.1
+sources:
+    Yapily API:
+        sourceNamespace: yapily-api
+        sourceRevisionDigest: sha256:8c0402cf194addc37905e53c4100b02dcdec572044ea18ea01123c5804b1817c
+        sourceBlobDigest: sha256:18f9c99a0bef72e7bab8369f76f8da06ea7b9b9d551992c2ea30197ba6653071
+        tags:
+            - latest
+            - 12.10.2
+targets:
+    yapily:
+        source: Yapily API
+        sourceNamespace: yapily-api
+        sourceRevisionDigest: sha256:8c0402cf194addc37905e53c4100b02dcdec572044ea18ea01123c5804b1817c
+        sourceBlobDigest: sha256:18f9c99a0bef72e7bab8369f76f8da06ea7b9b9d551992c2ea30197ba6653071
+        codeSamplesNamespace: yapily-api-go-code-samples
+        codeSamplesRevisionDigest: sha256:b431648f9f4067d528ad568ef979fac85b879e7fc9db5a844c5d254c9adc2321
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        Yapily API:
+            inputs:
+                - location: ../../Downloads/openapi.json
+            output: .speakeasy/out.openapi.yaml
+            registry:
+                location: registry.speakeasyapi.dev/test-slz/my-workspace/yapily-api
+    targets:
+        yapily:
+            target: go
+            source: Yapily API
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/test-slz/my-workspace/yapily-api-go-code-samples
+                labelOverride:
+                    fixedValue: Go (SDK)
+                blocking: false

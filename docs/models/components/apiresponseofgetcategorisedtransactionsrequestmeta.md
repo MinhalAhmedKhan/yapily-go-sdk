@@ -1,0 +1,10 @@
+# APIResponseOfGetCategorisedTransactionsRequestMeta
+
+
+## Fields
+
+| Field                                                                                        | Type                                                                                         | Required                                                                                     | Description                                                                                  |
+| -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| `TracingID`                                                                                  | `*string`                                                                                    | :heavy_minus_sign:                                                                           | N/A                                                                                          |
+| `Count`                                                                                      | `*int64`                                                                                     | :heavy_minus_sign:                                                                           | Total number of categorised transactions available                                           |
+| `PageCount`                                                                                  | `*int64`                                                                                     | :heavy_minus_sign:                                                                           | Total number of pages available, calculated based on the limit per page sent in the request. |

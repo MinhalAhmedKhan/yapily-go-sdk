@@ -1,0 +1,9 @@
+# APIResponseOfGetHostedConsentRequest
+
+
+## Fields
+
+| Field                                                                                                     | Type                                                                                                      | Required                                                                                                  | Description                                                                                               |
+| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `Meta`                                                                                                    | [*components.ResponseMeta](../../models/components/responsemeta.md)                                       | :heavy_minus_sign:                                                                                        | N/A                                                                                                       |
+| `Data`                                                                                                    | [*components.HostedGetConsentRequestResponse](../../models/components/hostedgetconsentrequestresponse.md) | :heavy_minus_sign:                                                                                        | N/A                                                                                                       |

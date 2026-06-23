@@ -1,0 +1,12 @@
+# UserBeneficiaryDataDetails
+
+Beneficiary response with the details of the VoP result.
+
+
+## Fields
+
+| Field                                                                               | Type                                                                                | Required                                                                            | Description                                                                         | Example                                                                             |
+| ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| `Name`                                                                              | `string`                                                                            | :heavy_check_mark:                                                                  | name of the beneficiary                                                             | John Doe                                                                            |
+| `Match`                                                                             | [*components.UserBeneficiaryMatch](../../models/components/userbeneficiarymatch.md) | :heavy_minus_sign:                                                                  | Details of the match given by the institution.                                      |                                                                                     |
+| `AccountIdentifier`                                                                 | [components.AccountIdentifier](../../models/components/accountidentifier.md)        | :heavy_check_mark:                                                                  | Account's details.                                                                  |                                                                                     |

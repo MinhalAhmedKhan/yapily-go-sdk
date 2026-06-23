@@ -1,0 +1,9 @@
+# APIListOfApplicationResponse
+
+
+## Fields
+
+| Field                                                                                             | Type                                                                                              | Required                                                                                          | Description                                                                                       |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `Meta`                                                                                            | [*components.ApplicationResponseListMeta](../../models/components/applicationresponselistmeta.md) | :heavy_minus_sign:                                                                                | N/A                                                                                               |
+| `Data`                                                                                            | [][components.ApplicationResponse](../../models/components/applicationresponse.md)                | :heavy_minus_sign:                                                                                | N/A                                                                                               |

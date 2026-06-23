@@ -1,0 +1,16 @@
+# ApplicationUser
+
+Information about a user of an application.
+
+
+## Fields
+
+| Field                                                                            | Type                                                                             | Required                                                                         | Description                                                                      |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| `UUID`                                                                           | `*string`                                                                        | :heavy_minus_sign:                                                               | A unique identifier for the 'User' assigned by Yapily.                           |
+| `ApplicationUUID`                                                                | `*string`                                                                        | :heavy_minus_sign:                                                               | Unique identifier of the application the user is associated with.                |
+| `ApplicationUserID`                                                              | `*string`                                                                        | :heavy_minus_sign:                                                               | __Conditional__. The user-friendly reference to the `User`.                      |
+| `ReferenceID`                                                                    | `*string`                                                                        | :heavy_minus_sign:                                                               | N/A                                                                              |
+| `CreatedAt`                                                                      | [*time.Time](https://pkg.go.dev/time#Time)                                       | :heavy_minus_sign:                                                               | Date and time of when the user was created.                                      |
+| `InstitutionConsents`                                                            | [][components.InstitutionConsent](../../models/components/institutionconsent.md) | :heavy_minus_sign:                                                               | N/A                                                                              |
+| `VopOptOut`                                                                      | `*bool`                                                                          | :heavy_minus_sign:                                                               | __Optional__. A flag to indicate whether the user has opted out of VOP.          |

@@ -1,0 +1,11 @@
+# GetStatementRequest
+
+
+## Fields
+
+| Field                                                                                       | Type                                                                                        | Required                                                                                    | Description                                                                                 |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| `Consent`                                                                                   | `string`                                                                                    | :heavy_check_mark:                                                                          | __Mandatory__. The `consent-token` containing the user's authorisation to make the request. |
+| `AccountID`                                                                                 | `string`                                                                                    | :heavy_check_mark:                                                                          | __Mandatory__. The account Id of the user's bank account.                                   |
+| `StatementID`                                                                               | `string`                                                                                    | :heavy_check_mark:                                                                          | __Mandatory__. The statement Id of the statement file.                                      |
+| `SubApplication`                                                                            | `*string`                                                                                   | :heavy_minus_sign:                                                                          | The sub-application ID to which event type is being subscribed to                           |

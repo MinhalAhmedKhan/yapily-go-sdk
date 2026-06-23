@@ -1,0 +1,12 @@
+# HostedPaymentStatusDetails
+
+The status of the payment.
+
+
+## Fields
+
+| Field                                                                                                     | Type                                                                                                      | Required                                                                                                  | Description                                                                                               |
+| --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `Status`                                                                                                  | [*components.PaymentStatus](../../models/components/paymentstatus.md)                                     | :heavy_minus_sign:                                                                                        | The status of the Payment. <br/><br/>For more information, see [Payment Status](/guides/payments/payment-status/) |
+| `StatusUpdateDate`                                                                                        | [*time.Time](https://pkg.go.dev/time#Time)                                                                | :heavy_minus_sign:                                                                                        | Date and time the status was updated.                                                                     |
+| `IsoStatus`                                                                                               | [*components.HostedPaymentIsoStatus](../../models/components/hostedpaymentisostatus.md)                   | :heavy_minus_sign:                                                                                        | The ISO status of the payment.                                                                            |

@@ -1,0 +1,9 @@
+# PatchUserRequest
+
+
+## Fields
+
+| Field                                                                                              | Type                                                                                               | Required                                                                                           | Description                                                                                        |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| `UserUUID`                                                                                         | `string`                                                                                           | :heavy_check_mark:                                                                                 | __Mandatory__. The Yapily generated UUID for the user.                                             |
+| `Body`                                                                                             | [][components.ApplicationUserPatchRequest](../../models/components/applicationuserpatchrequest.md) | :heavy_check_mark:                                                                                 | N/A                                                                                                |

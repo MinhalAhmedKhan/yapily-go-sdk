@@ -1,0 +1,9 @@
+# CreateVrpPaymentRequest
+
+
+## Fields
+
+| Field                                                                              | Type                                                                               | Required                                                                           | Description                                                                        | Example                                                                            |
+| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| `Consent`                                                                          | `string`                                                                           | :heavy_check_mark:                                                                 | The user's VRP [Consent Token](/getting-started/glossary#consent-token)            | {consentToken}                                                                     |
+| `Body`                                                                             | [components.VrpSubmissionRequest](../../models/components/vrpsubmissionrequest.md) | :heavy_check_mark:                                                                 | N/A                                                                                |                                                                                    |

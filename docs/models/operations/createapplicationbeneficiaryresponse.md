@@ -1,0 +1,9 @@
+# CreateApplicationBeneficiaryResponse
+
+
+## Fields
+
+| Field                                                                                                   | Type                                                                                                    | Required                                                                                                | Description                                                                                             |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                              | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                      | :heavy_check_mark:                                                                                      | N/A                                                                                                     |
+| `ApplicationBeneficiaryResponse`                                                                        | [*components.ApplicationBeneficiaryResponse](../../models/components/applicationbeneficiaryresponse.md) | :heavy_minus_sign:                                                                                      | OK                                                                                                      |

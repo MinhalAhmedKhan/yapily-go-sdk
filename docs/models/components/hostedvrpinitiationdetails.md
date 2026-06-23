@@ -1,0 +1,14 @@
+# HostedVrpInitiationDetails
+
+__Optional__. The details of the participating parties.
+
+
+## Fields
+
+| Field                                                                                   | Type                                                                                    | Required                                                                                | Description                                                                             |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| `Reference`                                                                             | `*string`                                                                               | :heavy_minus_sign:                                                                      | The reference/description of the payments that will be carried out on this VRP consent. |
+| `Payer`                                                                                 | [*components.Payer](../../models/components/payer.md)                                   | :heavy_minus_sign:                                                                      | __Conditional__. Details of the benefactor [person or business].                        |
+| `UltimatePayer`                                                                         | [*components.VrpUltimatePayer](../../models/components/vrpultimatepayer.md)             | :heavy_minus_sign:                                                                      | N/A                                                                                     |
+| `Payee`                                                                                 | [*components.Payee](../../models/components/payee.md)                                   | :heavy_minus_sign:                                                                      | __Mandatory__. Details of the beneficiary [person or business].                         |
+| `UltimatePayee`                                                                         | [*components.VrpUltimatePayee](../../models/components/vrpultimatepayee.md)             | :heavy_minus_sign:                                                                      | N/A                                                                                     |

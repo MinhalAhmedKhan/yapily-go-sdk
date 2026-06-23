@@ -1,0 +1,12 @@
+# AccountBalance
+
+
+## Fields
+
+| Field                                                                           | Type                                                                            | Required                                                                        | Description                                                                     |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `Type`                                                                          | [*components.AccountBalanceType](../../models/components/accountbalancetype.md) | :heavy_minus_sign:                                                              | Specifies the type of the stated account balance.                               |
+| `DateTime`                                                                      | [*time.Time](https://pkg.go.dev/time#Time)                                      | :heavy_minus_sign:                                                              | Date and time of the reported balance.                                          |
+| `BalanceAmount`                                                                 | [*components.Amount](../../models/components/amount.md)                         | :heavy_minus_sign:                                                              | __Mandatory__. Monetary Amount.                                                 |
+| `CreditLineIncluded`                                                            | `*bool`                                                                         | :heavy_minus_sign:                                                              | __Optional__. Indicates whether any credit lines are included in the balance.   |
+| `CreditLines`                                                                   | [][components.CreditLine](../../models/components/creditline.md)                | :heavy_minus_sign:                                                              | __Optional__. Specifies the type of balance.                                    |

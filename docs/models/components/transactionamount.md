@@ -1,0 +1,11 @@
+# TransactionAmount
+
+The amount associated with the transaction
+
+
+## Fields
+
+| Field                                                                                                                     | Type                                                                                                                      | Required                                                                                                                  | Description                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| `Amount`                                                                                                                  | `float64`                                                                                                                 | :heavy_check_mark:                                                                                                        | The monetary amount (a positive value implies _incoming_ transaction and a negative value implies _outgoing_ transaction) |
+| `Currency`                                                                                                                | `string`                                                                                                                  | :heavy_check_mark:                                                                                                        | The [ISO 4217](https://www.xe.com/iso4217.php) currency code                                                              |

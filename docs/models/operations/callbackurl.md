@@ -1,0 +1,11 @@
+# CallbackURL
+
+Callback URLs where events will be sent. These must not contain any query parameters.
+
+
+## Fields
+
+| Field                                                                                                                         | Type                                                                                                                          | Required                                                                                                                      | Description                                                                                                                   |
+| ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `Main`                                                                                                                        | [operations.Main](../../models/operations/main.md)                                                                            | :heavy_check_mark:                                                                                                            | Primary URL where events will be sent. It must not contain any query parameters.                                              |
+| `Backup`                                                                                                                      | [*operations.Backup](../../models/operations/backup.md)                                                                       | :heavy_minus_sign:                                                                                                            | Secondary URL where events will be sent whenever the primary URL is not responding. It must not contain any query parameters. |

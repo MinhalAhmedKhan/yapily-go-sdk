@@ -1,0 +1,10 @@
+# WebhookSecretResetRequest
+
+
+## Fields
+
+| Field                                                                                                 | Type                                                                                                  | Required                                                                                              | Description                                                                                           |
+| ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `SubApplication`                                                                                      | `*string`                                                                                             | :heavy_minus_sign:                                                                                    | The sub-application ID to which event type is being subscribed to                                     |
+| `WebhookID`                                                                                           | `string`                                                                                              | :heavy_check_mark:                                                                                    | Registered webhook ID                                                                                 |
+| `Body`                                                                                                | [*operations.WebhookSecretResetRequestBody](../../models/operations/webhooksecretresetrequestbody.md) | :heavy_minus_sign:                                                                                    | N/A                                                                                                   |

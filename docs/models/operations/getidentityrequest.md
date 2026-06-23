@@ -1,0 +1,9 @@
+# GetIdentityRequest
+
+
+## Fields
+
+| Field                                                                                       | Type                                                                                        | Required                                                                                    | Description                                                                                 | Example                                                                                     |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| `Consent`                                                                                   | `string`                                                                                    | :heavy_check_mark:                                                                          | __Mandatory__. The `consent-token` containing the user's authorisation to make the request. | {consentToken}                                                                              |
+| `SubApplication`                                                                            | `*string`                                                                                   | :heavy_minus_sign:                                                                          | The sub-application ID to which event type is being subscribed to                           |                                                                                             |

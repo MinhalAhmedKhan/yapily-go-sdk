@@ -1,0 +1,11 @@
+# EventSubscriptionDeleteResponse
+
+
+## Fields
+
+| Field                                                                      | Type                                                                       | Required                                                                   | Description                                                                | Example                                                                    |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| `EventTypeID`                                                              | `string`                                                                   | :heavy_check_mark:                                                         | Unique identifier of the event type (for which notifications will be sent) | payment.status.completed                                                   |
+| `ApplicationID`                                                            | `string`                                                                   | :heavy_check_mark:                                                         | Application related to event subscription.                                 | 2698db90-6635-4f76-b673-5ce8e2aeda0e                                       |
+| `Created`                                                                  | [time.Time](https://pkg.go.dev/time#Time)                                  | :heavy_check_mark:                                                         | Creation datetime of event subscription.                                   | 28-07-2021 15:47:03                                                        |
+| `DeleteStatus`                                                             | [components.DeleteStatusEnum](../../models/components/deletestatusenum.md) | :heavy_check_mark:                                                         | Indicates the outcome of the delete request.                               |                                                                            |

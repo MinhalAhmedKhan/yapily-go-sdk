@@ -1,0 +1,9 @@
+# UpdateApplicationResponse
+
+
+## Fields
+
+| Field                                                                                                       | Type                                                                                                        | Required                                                                                                    | Description                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| `HTTPMeta`                                                                                                  | [components.HTTPMetadata](../../models/components/httpmetadata.md)                                          | :heavy_check_mark:                                                                                          | N/A                                                                                                         |
+| `APIResponseOfApplicationResponse`                                                                          | [*components.APIResponseOfApplicationResponse](../../models/components/apiresponseofapplicationresponse.md) | :heavy_minus_sign:                                                                                          | Application was successfully updated                                                                        |

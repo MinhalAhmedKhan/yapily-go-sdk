@@ -1,0 +1,14 @@
+# UserCredentials
+
+__Conditional__. Used to capture the user's credentials to allow them to login to an `Institution` that uses the embedded account authorisation flow. 
+
+This is the first step required in the embedded account authorisation flow to authorise the `Consent`.
+
+
+## Fields
+
+| Field                                                                                       | Type                                                                                        | Required                                                                                    | Description                                                                                 | Example                                                                                     |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| `ID`                                                                                        | `string`                                                                                    | :heavy_check_mark:                                                                          | __Mandatory__. The login id for the user for a particular `Institution`.                    | 6154057725                                                                                  |
+| `CorporateID`                                                                               | `*string`                                                                                   | :heavy_minus_sign:                                                                          | __Conditional__. The corporate login for the user for a particular corporate `Institution`. | 6345898763                                                                                  |
+| `Password`                                                                                  | `string`                                                                                    | :heavy_check_mark:                                                                          | __Mandatory__. The password of the user to login to a particular `Institution`.             | PISPWD12                                                                                    |
