@@ -1,13 +1,13 @@
-# yapily
+# Yapily API v12.10.2
 
 <!-- Start Summary [summary] -->
 ## Summary
 
 Yapily API: The Yapily API enables connections between your application and users' banks. For more information check out our [documentation](/introduction).
 
-In particular, make sure to view our [Getting Started](/getting-started/get-started) steps if this is your first time here.
+In particular, make sure to view our [Getting Started](https://docs.yapily.com/getting-started/get-started) steps if this is your first time here.
 
-While testing the API, our list of [sandbox credentials](/resources/sandbox/sandbox-credentials) maybe useful.
+While testing the API, our list of [sandbox credentials](https://docs.yapily.com/resources/sandbox/sandbox-credentials) maybe useful.
 <!-- End Summary [summary] -->
 
 <!-- Start Table of Contents [toc] -->
